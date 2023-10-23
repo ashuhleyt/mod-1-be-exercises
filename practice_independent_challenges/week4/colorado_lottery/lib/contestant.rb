@@ -3,8 +3,9 @@ class Contestant
               :last_name, 
               :age, 
               :state_of_residence, 
-              :spending_money, 
               :game_interests
+
+  attr_accessor :spending_money
 
   def initialize(attributes)
     @first_name = attributes[:first_name]
